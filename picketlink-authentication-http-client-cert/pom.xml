@@ -21,10 +21,10 @@
 
   <groupId>org.jboss.quickstarts.eap</groupId>
   <artifactId>jboss-as-picketlink-authentication-http-client-cert</artifactId>
-  <version>6.2.0-SNAPSHOT</version>
+  <version>6.2.0-redhat-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>JBoss AS Quickstarts: PicketLink HTTP CLIENT-CERT Authentication</name>
-  <description>JBoss AS Quickstarts: PicketLink HTTP CLIENT-CERT Authentication</description>
+  <name>JBoss EAP Quickstart: picketlink-authentication-http-client-cert</name>
+  <description>JBoss EAP Quickstarts: PicketLink HTTP CLIENT-CERT Authentication</description>
 
   <url>http://jboss.org/jbossas</url>
   <licenses>
@@ -49,7 +49,6 @@
     <!-- Define the version of the JBoss BOMs we want to import to specify 
       tested stacks. -->
     <version.jboss.bom.eap>6.2.0-build-5</version.jboss.bom.eap>
-    <version.compiler.plugin>3.1</version.compiler.plugin>
     <version.war.plugin>2.1.1</version.war.plugin>
 
     <!-- maven-compiler-plugin -->
